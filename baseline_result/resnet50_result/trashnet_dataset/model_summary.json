@@ -1,0 +1,26 @@
+{
+    "model_type": "ResNet-50",
+    "num_classes": 6,
+    "class_names": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "trash"
+    ],
+    "parameters": 23520326,
+    "trainable_parameters": 12294,
+    "val_accuracy": 0.8871287128712871,
+    "test_accuracy": 0.8740157480314961,
+    "val_f1_score": 0.8847100712590987,
+    "test_f1_score": 0.8703821064311554,
+    "per_class_f1": {
+        "cardboard": 0.9361702127659575,
+        "glass": 0.8444444444444444,
+        "metal": 0.8333333333333334,
+        "paper": 0.9253731343283582,
+        "plastic": 0.8631578947368421,
+        "trash": 0.6086956521739131
+    }
+}

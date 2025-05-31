@@ -1,0 +1,30 @@
+{
+    "model_type": "SVM with resnet50 features",
+    "feature_extractor": "resnet50",
+    "num_classes": 6,
+    "class_names": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "trash"
+    ],
+    "hyperparameters": {
+        "C": 1.0,
+        "kernel": "rbf",
+        "gamma": "scale"
+    },
+    "val_accuracy": 0.9168316831683169,
+    "test_accuracy": 0.9015748031496063,
+    "val_f1_score": 0.9158441973777995,
+    "test_f1_score": 0.9002663409647962,
+    "per_class_f1": {
+        "cardboard": 0.9295774647887324,
+        "glass": 0.912621359223301,
+        "metal": 0.9111111111111111,
+        "paper": 0.9090909090909091,
+        "plastic": 0.8865979381443299,
+        "trash": 0.7692307692307693
+    }
+}

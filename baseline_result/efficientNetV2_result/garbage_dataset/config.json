@@ -1,0 +1,27 @@
+{
+    "model": "EfficientNetV2-S",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "optimizer": "Adam",
+    "epochs": 30,
+    "dropout_rate": 0.5,
+    "unfreeze_layers": "none",
+    "num_workers": 4,
+    "total_parameters": 20190298,
+    "trainable_parameters": 12810,
+    "device": "mps",
+    "dataset_path": "../../garbage-dataset-2",
+    "num_classes": 10,
+    "class_names": [
+        "battery",
+        "biological",
+        "cardboard",
+        "clothes",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "shoes",
+        "trash"
+    ]
+}

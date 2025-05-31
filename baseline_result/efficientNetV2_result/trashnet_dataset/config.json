@@ -1,0 +1,23 @@
+{
+    "model": "EfficientNetV2-S",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "optimizer": "Adam",
+    "epochs": 30,
+    "dropout_rate": 0.5,
+    "unfreeze_layers": "none",
+    "num_workers": 4,
+    "total_parameters": 20185174,
+    "trainable_parameters": 7686,
+    "device": "mps",
+    "dataset_path": "../../dataset-resized",
+    "num_classes": 6,
+    "class_names": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "trash"
+    ]
+}

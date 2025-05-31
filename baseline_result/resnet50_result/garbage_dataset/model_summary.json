@@ -1,0 +1,34 @@
+{
+    "model_type": "ResNet-50",
+    "num_classes": 10,
+    "class_names": [
+        "battery",
+        "biological",
+        "cardboard",
+        "clothes",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "shoes",
+        "trash"
+    ],
+    "parameters": 23528522,
+    "trainable_parameters": 20490,
+    "val_accuracy": 0.9468623481781376,
+    "test_accuracy": 0.9524532119372787,
+    "val_f1_score": 0.946806100597292,
+    "test_f1_score": 0.9523765817450749,
+    "per_class_f1": {
+        "battery": 0.972972972972973,
+        "biological": 0.9606986899563319,
+        "cardboard": 0.9384164222873901,
+        "clothes": 0.9858356940509915,
+        "glass": 0.9522292993630573,
+        "metal": 0.9152542372881356,
+        "paper": 0.9384164222873901,
+        "plastic": 0.910377358490566,
+        "shoes": 0.9627659574468085,
+        "trash": 0.8969072164948454
+    }
+}

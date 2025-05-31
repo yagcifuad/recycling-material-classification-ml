@@ -1,0 +1,27 @@
+{
+    "model": "ResNet-50",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "optimizer": "Adam",
+    "epochs": 30,
+    "dropout_rate": 0.5,
+    "unfreeze_layers": "none",
+    "num_workers": 4,
+    "total_parameters": 23528522,
+    "trainable_parameters": 20490,
+    "device": "mps",
+    "dataset_path": "../../garbage-dataset-2",
+    "num_classes": 10,
+    "class_names": [
+        "battery",
+        "biological",
+        "cardboard",
+        "clothes",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "shoes",
+        "trash"
+    ]
+}

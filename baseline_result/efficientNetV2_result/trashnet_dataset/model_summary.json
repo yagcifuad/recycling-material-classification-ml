@@ -1,0 +1,26 @@
+{
+    "model_type": "EfficientNetV2-S",
+    "num_classes": 6,
+    "class_names": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "trash"
+    ],
+    "parameters": 20185174,
+    "trainable_parameters": 7686,
+    "val_accuracy": 0.8376237623762376,
+    "test_accuracy": 0.8149606299212598,
+    "val_f1_score": 0.8373297536404375,
+    "test_f1_score": 0.8152442690853494,
+    "per_class_f1": {
+        "cardboard": 0.88,
+        "glass": 0.7961165048543689,
+        "metal": 0.851063829787234,
+        "paper": 0.8518518518518519,
+        "plastic": 0.7628865979381443,
+        "trash": 0.6451612903225806
+    }
+}
