@@ -1,0 +1,41 @@
+{
+    "model": "SVM",
+    "feature_extractor": "resnet50",
+    "best_parameters": {
+        "C": 0.0379269019073225,
+        "break_ties": false,
+        "cache_size": 200,
+        "class_weight": "balanced",
+        "coef0": 0.0,
+        "decision_function_shape": "ovo",
+        "degree": 3,
+        "gamma": 0.00018329807108324357,
+        "kernel": "linear",
+        "max_iter": -1,
+        "probability": true,
+        "random_state": 42,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+    },
+    "batch_size": 32,
+    "num_workers": 4,
+    "device": "mps",
+    "dataset_path": "../dataset-resized",
+    "num_classes": 6,
+    "class_names": [
+        "cardboard",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "trash"
+    ],
+    "feature_dimension": 2048,
+    "hyperparameter_search": {
+        "method": "RandomizedSearchCV",
+        "n_iter": 25,
+        "cv": 5,
+        "scoring": "f1_weighted"
+    }
+}
