@@ -1,0 +1,7 @@
+{
+    "learning_rate": 0.0001,
+    "batch_size": 16,
+    "optimizer": "SGD",
+    "dropout_rate": 0.2,
+    "unfreeze_layers": "last_block"
+}

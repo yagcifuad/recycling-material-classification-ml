@@ -1,0 +1,195 @@
+{
+    "aerosol_cans": {
+        "precision": 0.773109243697479,
+        "recall": 0.9292929292929293,
+        "f1-score": 0.8440366972477065,
+        "support": 99.0
+    },
+    "aluminum_food_cans": {
+        "precision": 0.525,
+        "recall": 0.4375,
+        "f1-score": 0.4772727272727273,
+        "support": 96.0
+    },
+    "aluminum_soda_cans": {
+        "precision": 0.845360824742268,
+        "recall": 0.8817204301075269,
+        "f1-score": 0.8631578947368421,
+        "support": 93.0
+    },
+    "cardboard_boxes": {
+        "precision": 0.6320754716981132,
+        "recall": 0.6907216494845361,
+        "f1-score": 0.6600985221674877,
+        "support": 97.0
+    },
+    "cardboard_packaging": {
+        "precision": 0.6551724137931034,
+        "recall": 0.5643564356435643,
+        "f1-score": 0.6063829787234043,
+        "support": 101.0
+    },
+    "clothing": {
+        "precision": 0.8979591836734694,
+        "recall": 0.8888888888888888,
+        "f1-score": 0.8934010152284264,
+        "support": 99.0
+    },
+    "coffee_grounds": {
+        "precision": 0.9903846153846154,
+        "recall": 1.0,
+        "f1-score": 0.9951690821256038,
+        "support": 103.0
+    },
+    "disposable_plastic_cutlery": {
+        "precision": 0.9333333333333333,
+        "recall": 0.9572649572649573,
+        "f1-score": 0.9451476793248945,
+        "support": 117.0
+    },
+    "eggshells": {
+        "precision": 0.9619047619047619,
+        "recall": 0.9439252336448598,
+        "f1-score": 0.9528301886792453,
+        "support": 107.0
+    },
+    "food_waste": {
+        "precision": 0.8913043478260869,
+        "recall": 0.9318181818181818,
+        "f1-score": 0.9111111111111111,
+        "support": 88.0
+    },
+    "glass_beverage_bottles": {
+        "precision": 0.8349514563106796,
+        "recall": 0.9148936170212766,
+        "f1-score": 0.8730964467005076,
+        "support": 94.0
+    },
+    "glass_cosmetic_containers": {
+        "precision": 0.8415841584158416,
+        "recall": 0.9139784946236559,
+        "f1-score": 0.8762886597938144,
+        "support": 93.0
+    },
+    "glass_food_jars": {
+        "precision": 0.9615384615384616,
+        "recall": 0.7894736842105263,
+        "f1-score": 0.8670520231213873,
+        "support": 95.0
+    },
+    "magazines": {
+        "precision": 0.9012345679012346,
+        "recall": 0.8488372093023255,
+        "f1-score": 0.874251497005988,
+        "support": 86.0
+    },
+    "newspaper": {
+        "precision": 0.8461538461538461,
+        "recall": 0.8712871287128713,
+        "f1-score": 0.8585365853658536,
+        "support": 101.0
+    },
+    "office_paper": {
+        "precision": 0.7821782178217822,
+        "recall": 0.7596153846153846,
+        "f1-score": 0.7707317073170732,
+        "support": 104.0
+    },
+    "paper_cups": {
+        "precision": 0.7394957983193278,
+        "recall": 0.8461538461538461,
+        "f1-score": 0.7892376681614349,
+        "support": 104.0
+    },
+    "plastic_cup_lids": {
+        "precision": 0.9139784946236559,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8717948717948718,
+        "support": 102.0
+    },
+    "plastic_detergent_bottles": {
+        "precision": 0.9680851063829787,
+        "recall": 0.9479166666666666,
+        "f1-score": 0.9578947368421052,
+        "support": 96.0
+    },
+    "plastic_food_containers": {
+        "precision": 0.8365384615384616,
+        "recall": 0.8613861386138614,
+        "f1-score": 0.848780487804878,
+        "support": 101.0
+    },
+    "plastic_shopping_bags": {
+        "precision": 0.9306930693069307,
+        "recall": 0.8703703703703703,
+        "f1-score": 0.8995215311004785,
+        "support": 108.0
+    },
+    "plastic_soda_bottles": {
+        "precision": 0.9038461538461539,
+        "recall": 0.8623853211009175,
+        "f1-score": 0.8826291079812206,
+        "support": 109.0
+    },
+    "plastic_straws": {
+        "precision": 0.9469026548672567,
+        "recall": 0.9224137931034483,
+        "f1-score": 0.9344978165938864,
+        "support": 116.0
+    },
+    "plastic_trash_bags": {
+        "precision": 0.9111111111111111,
+        "recall": 0.9318181818181818,
+        "f1-score": 0.9213483146067416,
+        "support": 88.0
+    },
+    "plastic_water_bottles": {
+        "precision": 0.9090909090909091,
+        "recall": 0.7894736842105263,
+        "f1-score": 0.8450704225352113,
+        "support": 114.0
+    },
+    "shoes": {
+        "precision": 0.9375,
+        "recall": 1.0,
+        "f1-score": 0.967741935483871,
+        "support": 90.0
+    },
+    "steel_food_cans": {
+        "precision": 0.5909090909090909,
+        "recall": 0.6310679611650486,
+        "f1-score": 0.6103286384976526,
+        "support": 103.0
+    },
+    "styrofoam_cups": {
+        "precision": 0.9010989010989011,
+        "recall": 0.8367346938775511,
+        "f1-score": 0.8677248677248677,
+        "support": 98.0
+    },
+    "styrofoam_food_containers": {
+        "precision": 0.8857142857142857,
+        "recall": 0.8942307692307693,
+        "f1-score": 0.8899521531100478,
+        "support": 104.0
+    },
+    "tea_bags": {
+        "precision": 0.8,
+        "recall": 0.8936170212765957,
+        "f1-score": 0.8442211055276382,
+        "support": 94.0
+    },
+    "accuracy": 0.848,
+    "macro avg": {
+        "precision": 0.8482736313668047,
+        "recall": 0.8481492001850869,
+        "f1-score": 0.8466436157895659,
+        "support": 3000.0
+    },
+    "weighted avg": {
+        "precision": 0.8493429689419826,
+        "recall": 0.848,
+        "f1-score": 0.8471162753027329,
+        "support": 3000.0
+    }
+}

@@ -1,0 +1,38 @@
+Evaluation Accuracy: 0.8780
+
+                            precision    recall  f1-score   support
+
+              aerosol_cans       0.91      0.95      0.93        85
+        aluminum_food_cans       0.72      0.53      0.61       100
+        aluminum_soda_cans       0.84      0.95      0.89       105
+           cardboard_boxes       0.66      0.69      0.67       115
+       cardboard_packaging       0.64      0.62      0.63       111
+                  clothing       0.86      0.93      0.89       103
+            coffee_grounds       0.96      0.97      0.97       111
+disposable_plastic_cutlery       0.97      0.96      0.97       104
+                 eggshells       0.98      0.93      0.96       104
+                food_waste       0.98      0.99      0.99       103
+    glass_beverage_bottles       0.92      0.94      0.93       101
+ glass_cosmetic_containers       0.89      0.91      0.90        93
+           glass_food_jars       0.96      0.92      0.94       104
+                 magazines       0.95      0.93      0.94       104
+                 newspaper       0.80      0.83      0.82        94
+              office_paper       0.86      0.86      0.86        93
+                paper_cups       0.86      0.91      0.88       110
+          plastic_cup_lids       0.89      0.82      0.86        90
+ plastic_detergent_bottles       0.96      0.97      0.96        97
+   plastic_food_containers       0.94      0.93      0.94       110
+     plastic_shopping_bags       0.94      0.92      0.93       110
+      plastic_soda_bottles       0.88      0.86      0.87        98
+            plastic_straws       0.94      0.97      0.96        99
+        plastic_trash_bags       0.94      0.83      0.88       106
+     plastic_water_bottles       0.87      0.80      0.83       103
+                     shoes       0.95      0.98      0.96        88
+           steel_food_cans       0.54      0.68      0.60        73
+            styrofoam_cups       0.95      0.90      0.93       104
+ styrofoam_food_containers       0.91      0.95      0.93        91
+                  tea_bags       0.84      0.89      0.87        91
+
+                  accuracy                           0.88      3000
+                 macro avg       0.88      0.88      0.88      3000
+              weighted avg       0.88      0.88      0.88      3000

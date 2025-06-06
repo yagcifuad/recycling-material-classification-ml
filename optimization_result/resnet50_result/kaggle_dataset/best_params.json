@@ -1,0 +1,11 @@
+{
+    "trial": 15,
+    "accuracy": 0.889,
+    "f1": 0.8883395799320912,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "optimizer": "SGD",
+    "dropout_rate": 0.2,
+    "unfreeze_layers": "all",
+    "model_path": "resnet50_results/trial_15/model_trial_15.pth"
+}

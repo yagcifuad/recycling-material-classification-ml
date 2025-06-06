@@ -1,0 +1,16 @@
+trial,accuracy,f1,learning_rate,batch_size,optimizer,dropout_rate,unfreeze_layers,model_path
+1,0.787,0.786067660495488,0.0001,16,Adam,0.5,none,resnet50_results/trial_1/model_trial_1.pth
+2,0.8473333333333334,0.8466118190609365,0.001,16,Adam,0.2,all,resnet50_results/trial_2/model_trial_2.pth
+3,0.848,0.8471162753027329,0.0005,16,Adam,0.2,none,resnet50_results/trial_3/model_trial_3.pth
+4,0.8596666666666667,0.8586872802031782,0.001,64,Adam,0.2,all,resnet50_results/trial_4/model_trial_4.pth
+5,0.744,0.7393645818703056,0.0001,64,SGD,0.2,last_block,resnet50_results/trial_5/model_trial_5.pth
+6,0.88,0.8789103025328612,0.0001,32,Adam,0.2,all,resnet50_results/trial_6/model_trial_6.pth
+7,0.7783333333333333,0.7766425005363449,0.0005,32,SGD,0.2,none,resnet50_results/trial_7/model_trial_7.pth
+8,0.823,0.8206663241580412,0.0005,16,Adam,0.5,none,resnet50_results/trial_8/model_trial_8.pth
+9,0.8733333333333333,0.8728872495072959,0.0005,32,SGD,0.2,all,resnet50_results/trial_9/model_trial_9.pth
+10,0.8506666666666667,0.8493732365553117,0.0005,64,Adam,0.5,none,resnet50_results/trial_10/model_trial_10.pth
+11,0.8433333333333334,0.842051132604346,0.0001,32,SGD,0.2,all,resnet50_results/trial_11/model_trial_11.pth
+12,0.8326666666666667,0.8302426398009893,0.001,16,Adam,0.5,none,resnet50_results/trial_12/model_trial_12.pth
+13,0.8676666666666667,0.8676822375275186,0.001,16,SGD,0.5,last_block,resnet50_results/trial_13/model_trial_13.pth
+14,0.8796666666666667,0.878642606107263,0.0001,32,Adam,0.5,last_block,resnet50_results/trial_14/model_trial_14.pth
+15,0.889,0.8883395799320912,0.001,64,SGD,0.2,all,resnet50_results/trial_15/model_trial_15.pth

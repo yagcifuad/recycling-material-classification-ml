@@ -1,0 +1,51 @@
+{
+    "cardboard": {
+        "precision": 1.0,
+        "recall": 0.7804878048780488,
+        "f1-score": 0.8767123287671232,
+        "support": 82.0
+    },
+    "glass": {
+        "precision": 0.8690476190476191,
+        "recall": 0.7684210526315789,
+        "f1-score": 0.8156424581005587,
+        "support": 95.0
+    },
+    "metal": {
+        "precision": 0.6949152542372882,
+        "recall": 0.9647058823529412,
+        "f1-score": 0.8078817733990148,
+        "support": 85.0
+    },
+    "paper": {
+        "precision": 0.7987012987012987,
+        "recall": 0.9609375,
+        "f1-score": 0.8723404255319149,
+        "support": 128.0
+    },
+    "plastic": {
+        "precision": 0.8470588235294118,
+        "recall": 0.7741935483870968,
+        "f1-score": 0.8089887640449438,
+        "support": 93.0
+    },
+    "trash": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 22.0
+    },
+    "accuracy": 0.8198019801980198,
+    "macro avg": {
+        "precision": 0.701620499252603,
+        "recall": 0.708124298041611,
+        "f1-score": 0.6969276249739259,
+        "support": 505.0
+    },
+    "weighted avg": {
+        "precision": 0.8012624895875144,
+        "recall": 0.8198019801980198,
+        "f1-score": 0.8018651975081947,
+        "support": 505.0
+    }
+}
