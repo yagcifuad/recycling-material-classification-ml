@@ -1,0 +1,11 @@
+{
+    "trial": 22,
+    "accuracy": 0.9584158415841584,
+    "f1": 0.9584619760630919,
+    "learning_rate": 0.0005,
+    "batch_size": 32,
+    "optimizer": "Adam",
+    "dropout_rate": 0.2,
+    "unfreeze_layers": "all",
+    "model_path": "resnet50_results/trial_22/model_trial_22.pth"
+}

@@ -1,0 +1,14 @@
+Evaluation Accuracy: 0.8851
+
+              precision    recall  f1-score   support
+
+   cardboard       0.99      0.86      0.92        91
+       glass       0.89      0.89      0.89       104
+       metal       0.78      0.95      0.86        77
+       paper       0.88      0.95      0.91       112
+     plastic       0.92      0.91      0.91        97
+       trash       0.75      0.38      0.50        24
+
+    accuracy                           0.89       505
+   macro avg       0.87      0.82      0.83       505
+weighted avg       0.89      0.89      0.88       505
