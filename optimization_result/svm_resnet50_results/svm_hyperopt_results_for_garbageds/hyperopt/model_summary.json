@@ -1,0 +1,50 @@
+{
+    "model_type": "SVM with resnet50 features (optimized)",
+    "feature_extractor": "resnet50",
+    "num_classes": 10,
+    "class_names": [
+        "battery",
+        "biological",
+        "cardboard",
+        "clothes",
+        "glass",
+        "metal",
+        "paper",
+        "plastic",
+        "shoes",
+        "trash"
+    ],
+    "hyperparameters": {
+        "C": 0.001,
+        "break_ties": false,
+        "cache_size": 200,
+        "class_weight": "balanced",
+        "coef0": 0.0,
+        "decision_function_shape": "ovo",
+        "degree": 3,
+        "gamma": 0.14384498882876628,
+        "kernel": "poly",
+        "max_iter": -1,
+        "probability": true,
+        "random_state": 42,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+    },
+    "val_accuracy": 0.9643218623481782,
+    "test_accuracy": 0.9696509863429439,
+    "val_f1_score": 0.9643867586518248,
+    "test_f1_score": 0.9695750113443147,
+    "per_class_f1": {
+        "battery": 0.9621621621621622,
+        "biological": 0.961038961038961,
+        "cardboard": 0.9734513274336283,
+        "clothes": 0.9924385633270322,
+        "glass": 0.9698890649762282,
+        "metal": 0.9213483146067416,
+        "paper": 0.9590643274853801,
+        "plastic": 0.9461358313817331,
+        "shoes": 0.9761273209549072,
+        "trash": 0.956989247311828
+    }
+}

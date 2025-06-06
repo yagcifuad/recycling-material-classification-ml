@@ -1,0 +1,13 @@
+{
+    "best_params": {
+        "kernel": "linear",
+        "gamma": 0.00018329807108324357,
+        "decision_function_shape": "ovo",
+        "class_weight": "balanced",
+        "C": 0.0379269019073225
+    },
+    "best_cv_score": 0.9120589516914794,
+    "validation_accuracy": 0.9267326732673268,
+    "validation_f1": 0.9264399544454841,
+    "search_time": 187.45395016670227
+}
